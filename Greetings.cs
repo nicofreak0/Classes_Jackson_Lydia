@@ -14,5 +14,11 @@ namespace Classes_Jackson_Lydia
             Console.WriteLine("Welcome Traveler!");
         }
 
+
+        public void Hello(string name) 
+        { 
+            Console.WriteLine($"{name}, it's a pleasure to have you here!");
+        }
+
     }
 }

@@ -6,6 +6,11 @@
         {
             Greetings greetings = new Greetings();
             greetings.Welcome();
+
+            Console.WriteLine("What may your name be?");
+            string userName = Console.ReadLine();
+
+            greetings.Hello(userName);
         }
     }
 }
